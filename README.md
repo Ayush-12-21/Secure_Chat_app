@@ -19,16 +19,16 @@ This guarantees **confidentiality, integrity, and authenticity** in peer-to-peer
 
 ---
 
-## ✨ Features  
+##  Features  
 
-### 💬 Secure Messaging  
+###  Secure Messaging  
 - AES session key generated for **each message**  
 - Session key encrypted with receiver’s **RSA public key**  
 - Transmitted message = **AES ciphertext + RSA-encrypted session key**  
 
 ---
 
-### 🖥️ GUI Elements  
+###  GUI Elements  
 - **Connect Button** → Establish connection with peer  
 - **Send Button** → Send encrypted message  
 - **Disconnect Button** → Close the session  
@@ -37,7 +37,7 @@ This guarantees **confidentiality, integrity, and authenticity** in peer-to-peer
 
 ---
 
-### ⚙️ Configurable Setup  
+###  Configurable Setup  
 - All parameters stored in **config.json**:  
   - Peer IP, Ports  
   - Paths to RSA keys  
@@ -45,7 +45,7 @@ This guarantees **confidentiality, integrity, and authenticity** in peer-to-peer
 
 ---
 
-## 📦 Dependencies  
+##  Dependencies  
 
 ```bash
 # Update package list
@@ -69,11 +69,11 @@ sudo apt install -y nlohmann-json3-dev
 
 ---
 
-## 📂 Project Setup  
+##  Project Setup  
 
 ```bash
 # Clone the repository
-git clone https://github.com/Cyber-Security-July-Dec-2025/C18.git
+git clone https://github.com/Ayush-12-21/Secure_Chat_app.git
 cd C18
 
 # Create build directory
